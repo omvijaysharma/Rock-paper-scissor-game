@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    color: white;
+    background-color: black;
+}
+
+.images {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#rock,#paper,#scissors {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+}
+
+p {
+    font-size: 50px;
+}
+.score {
+    
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+#ann {
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 10%;
+    width: 100%;
+}
+.score {
+    margin-top: 300px;
+}
+.computer-score {
+    margin-top: 50px;
+}
